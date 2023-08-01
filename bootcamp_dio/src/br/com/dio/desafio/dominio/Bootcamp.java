@@ -13,7 +13,6 @@ public class Bootcamp {
 	private final LocalDate dataFinal = dataInicial.plusDays(45);
 	private Set<Dev> devsInscritos = new HashSet<>();
 	private Set<Conteudo> conteudos = new LinkedHashSet<>();
-	
 
 	public String getNome() {
 		return nome;
@@ -61,9 +60,8 @@ public class Bootcamp {
 			return false;
 		Bootcamp other = (Bootcamp) obj;
 		return Objects.equals(conteudos, other.conteudos) && Objects.equals(dataFinal, other.dataFinal)
-				&& Objects.equals(dataInicial, other.dataInicial) && Objects.equals(descricao, other.descricao)
-				&& Objects.equals(devsInscritos, other.devsInscritos) && Objects.equals(nome, other.nome);
+			&& Objects.equals(dataInicial, other.dataInicial) && Objects.equals(descricao, other.descricao)
+			&& Objects.equals(devsInscritos, other.devsInscritos) && Objects.equals(nome, other.nome);
 	}
-	
 	
 }

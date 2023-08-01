@@ -77,5 +77,4 @@ public class Dev {
 				&& Objects.equals(conteudosInscritos, other.conteudosInscritos) && Objects.equals(nome, other.nome);
 	}
 	
-	
 }
