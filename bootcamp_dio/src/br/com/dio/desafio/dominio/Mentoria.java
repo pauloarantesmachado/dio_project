@@ -4,11 +4,7 @@ import java.time.LocalDate;
 
 public class Mentoria extends Conteudo {
 	private LocalDate data;
-	
-	public Mentoria() {
-		// TODO Auto-generated constructor stub
-	}
-
+		
 	public LocalDate getData() {
 		return data;
 	}
